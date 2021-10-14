@@ -4,6 +4,8 @@
    - フォークしたリポジトリがテンプレートリポジトリとして使用できるようになる
 3. テンプレートを元にリポジトリを作成（当リポジトリ）
 4. ローカルにクローン
-5. composer install、npm install実行
-6. APPキー作成（php artisan key:generate）
-7. php artisan serve実行
+5. cp .env.example .env
+6. composer install
+7. npm install
+8. php artisan key:generate
+9. php artisan serve
